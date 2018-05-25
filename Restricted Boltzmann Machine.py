@@ -10,13 +10,10 @@ import torch.utils.data
 from torch.autograd import Variable
 
 # Import Dataset
-movies = pd.read_csv('ml-1m/movies.dat', sep = '::', header = None, engine = 'python',
-                     encoding = 'latin - 1')
-users = pd.read_csv('ml-1m/users.dat', sep = '::', header = None, engine = 'python',
-                     encoding = 'latin - 1')
+#movies = pd.read_csv('ml-1m/movies.dat', sep = '::', header = None, engine = 'python', encoding = 'latin - 1')
+#users = pd.read_csv('ml-1m/users.dat', sep = '::', header = None, engine = 'python', encoding = 'latin - 1')
 # 0 - user id, 1 - gender, 2 - age, 3 - job, 
-ratings = pd.read_csv('ml-1m/ratings.dat', sep = '::', header = None, engine = 'python',
-                     encoding = 'latin - 1')
+#ratings = pd.read_csv('ml-1m/ratings.dat', sep = '::', header = None, engine = 'python', encoding = 'latin - 1')
 #0 - user id, 1 - movie id, 2 - rating, 3 - timestep
 
 # Preparing the training set and test set
