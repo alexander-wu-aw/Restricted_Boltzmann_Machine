@@ -1,5 +1,5 @@
 # Restricted_Boltzmann_Machine
-A manually built restricted boltzmann machine used as a recommender system. It looks at a customer movie preferences and decides wether or not they will like a new movie.
+A manually built restricted boltzmann machine recommender system. It looks at a customer's movie preferences and decides wether or not they will like a new movie.
 
 A dataset is obtained that comprises of many users and their respective ratings for multiple movies. A test and training set is made by selecting random movie ratings for each user and ommiting the rest.
 
